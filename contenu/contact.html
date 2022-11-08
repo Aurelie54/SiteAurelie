@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+   
+
+    <div class="formulaire">
+
+    <form method="post" action="traitement.php">
+       <p>
+        
+        <h3><p class="titre"> Contactez-moi </p></h3>
+        <h5><p><em>N’hésitez pas à utiliser ce formulaire pour prendre contact avec moi !</em></p></h5>
+        <label for="nom"><strong>Votre nom</strong></label> 
+        <input type="nom" name="nom" id="nom" placeholder="Ex : Aurélie" size="30" maxlength="10" />
+    
+        <br />
+        <label for="email"><strong>Email</strong></label>
+        <div class="element">
+        <input type="email" name="email" id="email" /></div>
+
+        <br />
+        <label for="pays"><strong>Quel est le sujet de votre message ?</strong></label>
+        <select name="pays" id="pays">
+            <option value="france">Demande d'inscription</option>
+            <option value="espagne">Problème avec mon compte</option>
+            <option value="italie">Question à propos d'un élément</option>
+            <option value="royaume-uni">Autre</option>
+            <option value="canada">Canada</option>
+            <option value="etats-unis">États-Unis</option>
+            <option value="chine">Chine</option>
+            <option value="japon">Japon</option>
+        </select>
+
+
+        <br />
+        <br />
+        
+        <textarea name="message" id="message" placeholder="Votre message" ></textarea>
+
+        <br />
+        <br />
+<div class="bouton">
+        <button type="submit"> Envoyer</button>
+    </div>  
+    
+        </p>
+    </div>
+
+        <input type="date" />
+        <input type="search" />
+    </form>
+
+
+</body>
+</html>

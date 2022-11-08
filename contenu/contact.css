@@ -1,0 +1,112 @@
+/*Couleur de fond et couleur de texte*/
+
+body {
+    background: #f5d7d2;
+    color: #303030;
+    }
+
+/*Position et type de texte du formulaire*/
+
+.formulaire
+    {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+/*Contour et forme du formulaire*/
+
+form 
+{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    border-radius: 5px;
+    min-height: 83px;
+    margin-top: 10px;
+    width: 600px;
+}
+
+/*Couleur fond et forme du bouton du formulaire*/
+
+form button
+{
+    width: 450px;
+    max-width: 400px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+    margin-left: -18px;
+}
+
+/*Position de l'ensemble du bouton*/
+
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Survol du bouton*/
+
+button:hover
+{
+    color: #760001;
+    border: 3px solid #760001;
+}
+
+/*Zones de texte*/
+
+form input, form select, textarea{
+    background: #f5d7d2;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    width: 500px;
+    height: 30px;
+    margin-left: 30px;
+    }
+
+/*Taille zone de texte multiligne*/
+
+textarea
+{
+    width: 500px;
+    height: 260px;
+}
+
+/*Les libellés*/
+
+label{
+    margin-left: 30px;
+}
+    
+/*Contactez-moi*/
+
+.titre{
+margin-top: -35px;
+margin-bottom: 0px;
+margin-left: 30px;
+
+}
+
+/*Taille et couleur du sous-titre*/
+
+h5{
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: grey;
+    font-weight: 300;
+
+}

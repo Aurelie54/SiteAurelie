@@ -1,0 +1,55 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+h1
+{
+    color: blue;
+    background-color: black;
+}
+
+.description
+{
+    color: rgb(18, 228, 35);
+    font-size: 30px; /* Paragraphes de 14 pixels */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    width: 800px;
+    height: 200px;
+    margin-top: 60px;
+    color: rgb(53, 53, 37);
+    
+}
+
+td, th
+{
+    background-color : bisque;
+    border: 1px solid black;
+}
+
+.tableau
+{
+
+display: flex;
+justify-content: center;
+
+}
+

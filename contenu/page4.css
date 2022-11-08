@@ -1,0 +1,30 @@
+.description{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(128, 128, 240);
+}
+
