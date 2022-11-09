@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("contenu/neon.jpg");
+    background-image: url(contenu/fond_section.jpg);
 }
 
 /* Bandeau de bienvenue */
@@ -211,6 +211,7 @@ aside img
 
 section
 {
+    background-image: url(/contenu/neon.jpg);
     height: 380px;
     margin-left: 300px;
     margin-right: 200px;
@@ -231,6 +232,74 @@ a {
     
   }
 
+/*footer*/
+
+
+#tweet
+{
+    background-image: url(/contenu/fond_tweet.jpg);
+    border: 2px solid rgb(176, 209, 218);
+    border-radius: 6px 6px 6px;
+    width: 15%;
+    margin-right: 30px;
+    box-shadow: 10px -16px 10px rgb(89, 211, 248);
+    
+}
+
+#mes_jeux
+{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width: 20%;
+}
+
+#mes_amis
+{
+    border-right: 2px solid white;
+    box-shadow: 5px white;
+    margin-left: 20px;
+    width: 20%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px #181818;
+}
+
+
+
+
+
+
+.bas_de_page {
+font-size: 12px;
+   margin-top: 800px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 
 .animaux{
